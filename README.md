@@ -1,6 +1,6 @@
 # STM32F103 Breakout Board
 
-This is a STM32 based breakout/development board. This project allowed me to explore the full workflow of embedded hardware development all the way from schematic capture to PCB layout to bring-up to writing/debugging firmware. 
+This project was my first full PCB design and bring-up workflow for an STM32-based breakout/development board. It allowed me to explore the full workflow of embedded hardware development all the way from schematic capture to PCB layout to bring-up to writing/debugging firmware. 
 
 ![PCB Layout](Figures/PCB_Layout.png)
 
@@ -10,7 +10,7 @@ This is a STM32 based breakout/development board. This project allowed me to exp
 - 3.3V power input
 - SWD debug header for ST-LINK
 - BOOT0 pulled low (Boot from flash)
-- NRST reset by shorting with tweezers
+- NRST reset access pads
 - Status LED
 - I2C buffer circuitry
 - SPI1 breakout on PA4-PA7
